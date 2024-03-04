@@ -26,5 +26,41 @@ let string = String(numberOfValue)
 
 let x = new Number("3") // as (new) keyword creates a new object and pushes 3 into that object.
 let y = Number ("4")    // in case of y it will converted string into number 
-console.log(typeof x);
-console.log(typeof y);
+// console.log(typeof x);
+// console.log(typeof y);
+
+
+// operation 
+
+let str1 = "hello"
+let str2 = " world"
+
+let add = str1 + str2
+// console.log(add);
+
+// console.log("1" + 2  + 2); // If the string is first then all the string are included into string   output =>  122
+// console.log(1 + 2 + "2");  // If the string is in last conversion will be like this 1 + 2 = 3  and "2"  output => 32     https://262.ecma-international.org/12.0/#sec-abstract-operations
+// console.log(1 + "2" + 2 );
+
+// console.log( + true ); 
+// console.log( +"")
+
+let num1, num2, num3 
+
+num1 = num2 = num3 = 2+2 
+// console.table([num1,num2,num3]);
+
+let num11, num22, num33;     // Proper way 
+num11 = num22 = num33 = 4;
+// console.table([num11, num22, num33]);
+
+
+let count = 100 
+count ++
+// ++count 
+// console.log(count );
+ 
+let a = 5 ;  
+++a   // prefix 
+a++   // postfix 
+console.log(a);
