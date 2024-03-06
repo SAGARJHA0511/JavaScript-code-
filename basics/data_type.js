@@ -25,4 +25,72 @@ let growth;
 growth = "string "
 growth = 100 
 
-console.log(growth);
+// console.log(growth);
+
+// Summary 
+
+// Primitive Datatype 
+
+//Number 
+const userNumber = 4 
+const nextNumber = 5.6 
+// String 
+const thisString = "data"
+// Null
+const weatherTem = null;
+// Undifined 
+let emailId = undefined;
+emailId;
+// Boolean 
+let correctId = true ;
+worngtId = false ;
+// Symbol 
+const passWord1 = Symbol('123');  // Value are same, in engin it creates unique identifiers  
+const password = Symbol("123")
+console.log(passWord1==password);
+//BigInt 
+ const largeIntger = BigInt("123456789098765432");
+ console.log(largeIntger);
+
+
+ // Non - primitive 
+
+// Array          // Array is data type used to store multiple values in a single variable
+let myArray = [1, 'two', true, { name: 'John', age: 30 }, [4, 5, 6]];
+console.log(myArray);
+
+// Object    //  an object is a complex data type that represents a collection of key-value pairs
+
+let person = {
+    name: 'John',
+    age: 30,
+    city: 'New York'
+};
+
+// console.log(person.name); // Output: 'John'
+// console.log(person.age); // Output: 30
+// console.log(person.city); // Output: 'New York'
+
+// Function 
+
+const myFunction = function() {
+    console.log("Hi");
+}
+myFunction();
+
+/*
+Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+       */
