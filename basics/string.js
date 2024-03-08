@@ -29,5 +29,5 @@ console.log(emailId.indexOf('a'));
  
 
  // String Replace 
- const url = "http://prototype%@.com"  // i want to change url look  
+ const url = "http://prototype%@.com"  // i want to change url look.  
  console.log(url.replace('%@','-'));
