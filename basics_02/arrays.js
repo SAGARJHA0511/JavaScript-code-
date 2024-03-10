@@ -3,8 +3,45 @@
 // Like => [1,"apple", true, {name: 'john', age: 30 },  function() { console.log('Hello!'); }]
 
 let arr = [1,2,3,4,5,6] // Accessing Array elements by using index 
-console.log(arr['0']);  // => By using indexes we can access array elements. JS arrays follow the 0 based index. Means the index of the first element is 
+// console.log(arr['0']);  // => By using indexes we can access array elements. JS arrays follow the 0 based index. Means the index of the first element is 
 // Output => 1
 
-console.log(arr['10']) // Output => Undefined 
-// Note = If we are trying to access array elements by using out of range index then we will get Undefined, we won't get any error.
+// console.log(arr['10']) // Output => Undefined 
+// Note = If we are trying to access array elements by using out of range index then we will get Undefined, we won't get any error..
+
+const arr1 = new Array(1,2,3,4);
+// console.log(arr1 );
+
+// Array methods 
+
+//push 
+let newarr = [1,2,3,4]  // add elements to end 
+newarr.push(5);
+newarr.push(6)
+ // output => [1,2,3,4,5,6]
+
+//pop 
+newarr.pop(); // remove last element from array 
+// console.log(newarr);// output => [1,2,3,4,5]
+
+//unshift 
+let array = [1,2,3,4];
+array.unshift(5)  // add element in first position  // Output => [5,1,2,3,4]
+array.shift() // remove first element of the array  // output => [1,2,3,4]
+console.log(array);
+
+// include 
+let array1 = [1,2,3]
+console.log(array1.includes(0)); // to find elements in array - it not works on index whatever value do you want find, add that, thats all 
+
+//indexOf 
+let arr2 = [1,2,3,4]
+console.log(arr2.indexOf(2)); // find index of specified elements // output => 1
+console.log(arr2.indexOf(5)); // if the element is not available then it will get // output -1
+
+//join 
+console.log(arr2.join()); // it convert into string 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// slice 
