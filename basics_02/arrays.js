@@ -28,20 +28,37 @@ newarr.pop(); // remove last element from array
 let array = [1,2,3,4];
 array.unshift(5)  // add element in first position  // Output => [5,1,2,3,4]
 array.shift() // remove first element of the array  // output => [1,2,3,4]
-console.log(array);
+// console.log(array);
 
 // include 
 let array1 = [1,2,3]
-console.log(array1.includes(0)); // to find elements in array - it not works on index whatever value do you want find, add that, thats all 
+// console.log(array1.includes(0)); // to find elements in array - it not works on index whatever value do you want find, add that, thats all 
 
 //indexOf 
 let arr2 = [1,2,3,4]
-console.log(arr2.indexOf(2)); // find index of specified elements // output => 1
-console.log(arr2.indexOf(5)); // if the element is not available then it will get // output -1
+// console.log(arr2.indexOf(2)); // find index of specified elements // output => 1
+// console.log(arr2.indexOf(5)); // if the element is not available then it will get // output -1
 
 //join 
-console.log(arr2.join()); // it convert into string 
+// console.log(arr2.join()); // it convert into string 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // slice 
+
+let myarr = [0,1,2,3,4,5]; //  slice() method extracts the part of the given array and returns it. This method doesn't change the original array
+console.log(myarr);
+console.log(myarr.slice(1,4)); // Output => [1,2,3] 4 will be not include 
+console.log(myarr);
+// splice
+ let myarr1 = ['Angular.js', 'React.js', 'vue.js']   // 0 - is index, that were you want to start from 
+ removElement = myarr1.splice(0,2,"HTML", "Javascript")  // 2- how many elements want to add 
+//  console.log(myarr1); // Output = [ 'HTML', 'Javascript', 'veu.js' ]
+
+//  let arr4 = [1,2,3,4]
+// console.log(arr4);
+//  console.log(arr4.splice(0,2))
+//  console.log(arr4);
+
+let mya = [1,2,3,4]
+console.log(mya.slice(1,2))
