@@ -5,4 +5,4 @@ function counter (){
 let c = counter ();
 console.log(c());
 console.log(c());
-console.log(c());  // output => 0,1,2
+console.log(c());  // output => 0,1,2.
