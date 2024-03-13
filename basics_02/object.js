@@ -37,3 +37,19 @@ console.log(emp);
 console.log(emp.name,emp.salary);
 console.log(emp.name);
 console.log(emp.salary);
+
+const office = {
+    name : "shiva",
+    email : "shiva123@gmail.com",
+    location : "bangolore",
+    age : 34,
+    logIn : false,
+    logIn_days : ["Monday", "Tuesday", "wednesday"],
+
+
+}
+console.log(office.name);  
+console.log(office.age);
+console.log(office.location);
+console.log(office.logIn);
+console.log(office.logIn_days[1]);
