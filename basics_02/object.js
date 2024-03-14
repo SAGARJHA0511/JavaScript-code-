@@ -35,8 +35,8 @@ console.log(person.location[0]);
 console.log(person.greet());
 console.log(typeof person[mySim]);  // to access symbol 
 // console.log(person.email_ID); 
-console.log(person.email_ID = "nagdiv_kumar@gmail.com"); // to change value you can only equal to =
-Object.freeze(person)  
+console.log(person.email_ID = "nagdiv_kumar@gmail.com"); // to change value you can use only equal to =  
+Object.freeze(person)  // freeze is used for lock the values that nobody can change the object.
 console.log(person.email_ID = "nagddddddd@gmail.com");
 console.log(person);
 
