@@ -27,3 +27,5 @@ console.log(Employee["name"]); // using bracket notation
 console.log(Employee["Salary"]);
 
 // In javascript "key : value" pairs are called properties 
+
+// 

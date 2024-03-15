@@ -36,7 +36,7 @@ console.log(person.greet());
 console.log(typeof person[mySim]);  // to access symbol 
 // console.log(person.email_ID); 
 console.log(person.email_ID = "nagdiv_kumar@gmail.com"); // to change value you can use only equal to =  
-Object.freeze(person)  // freeze is used for lock the values that nobody can change the object.
+// Object.freeze(person)  // freeze is used for lock the values that nobody can change the object.
 console.log(person.email_ID = "nagddddddd@gmail.com");
 console.log(person);
 
@@ -74,3 +74,13 @@ console.log(office.age);
 console.log(office.location);
 console.log(office.logIn);
 console.log(office.logIn_days[1]);
+
+person.greeting = function (){
+    console.log(`"Hello! Guys", ${this.name}`); // to get any value from object into function 
+    // Note = when we use console to get output we will see  (undefined) under the "Hello! Guys" [ instan of that we can use -> return.]
+    return(`"Hello! Guys", ${this.name}`); // it will not give undefined
+}
+console.log(person.greeting); // it will give [Function (anonymous)]
+console.log(person.greeting());// Output =>  hello guys Nagdiv
+
+
