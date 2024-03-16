@@ -72,15 +72,15 @@ const reUser = {
 
 const target = {a:1, b:2};
 const source = {b:4, c:5};
-const result = Object.assign({},target,source);
+const result = Object.assign(target,source); // in this all keys and value are targetted into target 
 console.log(result);
 
 
 const user1 = {1:"a" , 2:"b" };
 const user2 = {3:"a" , 4:"b" };
 const user3 = {5:"a" , 6:"b" };
-const allUser = Object.assign({},user1,user2,user3);
-console.log(allUser)
+const allUser = Object.assign({},user1,user2,user3); // in this all key values are targetted into emtpy object {}
+console.log(allUser) 
 
 
 /**************************************************************************************************************************************************/
