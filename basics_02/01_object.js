@@ -76,6 +76,12 @@ const result = Object.assign({},target,source);
 console.log(result);
 
 
+const user1 = {1:"a" , 2:"b" };
+const user2 = {3:"a" , 4:"b" };
+const user3 = {5:"a" , 6:"b" };
+const allUser = Object.assign({},user1,user2,user3);
+console.log(allUser)
+
 
 /**************************************************************************************************************************************************/
 
