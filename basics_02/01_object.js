@@ -79,8 +79,8 @@ console.log(result);
 const user1 = {1:"a" , 2:"b" };
 const user2 = {3:"a" , 4:"b" };
 const user3 = {5:"a" , 6:"b" };
-const allUser = Object.assign({},user1,user2,user3); // in this all key values are targetted into emtpy object {}
-console.log(allUser) 
+const allUser = Object.assign({},user1,user2,user3); // in this all key values are targetted into empty object {}
+console.log(allUser) // when we take user1 first it will be target one user2 & user3 it go in user1
 
 
 /**************************************************************************************************************************************************/
